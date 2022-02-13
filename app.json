@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tabuada_de_bolso",
-    "slug": "tabuada_de_bolso",
+    "name": "aprenda_tabuada",
+    "slug": "aprenda_tabuada",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,7 +23,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+      },
+      "package": "com.jukaa57.aprenda_tabuada"
     },
     "web": {
       "favicon": "./assets/favicon.png"

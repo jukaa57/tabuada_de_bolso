@@ -20,8 +20,9 @@ export const ViewColumn = styled.View`
     
 export const ViewAds = styled.View`
     width: 100%;
-    height: 10%;
-    background-color: #999;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
 `;
     
 export const BtnRet = styled.TouchableOpacity`
@@ -29,6 +30,8 @@ export const BtnRet = styled.TouchableOpacity`
     height: 85px;
     background-color: #fff;
     elevation: 4;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
     border-radius: 4px;
     margin-bottom: 35px;
@@ -43,7 +46,7 @@ export const Title = styled.Text`
 `;
 
 export const TextButton = styled.Text`
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 700;
     color: #666;
     text-align: center;

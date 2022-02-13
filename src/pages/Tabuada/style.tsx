@@ -1,11 +1,13 @@
 import styled from "styled-components/native";
 import {LinearGradient} from "expo-linear-gradient";
 
-export const Container = styled(LinearGradient).attrs({
-    colors: ['#10953D', '#5BFFCE'],
-    start: { x: 0, y: 0 },
-    end: { x: 0, y: 1}
-})`
+// styled(LinearGradient).attrs({
+//     colors: ['#10953D', '#5BFFCE'],
+//     start: { x: 0, y: 0 },
+//     end: { x: 0, y: 1}
+// })`
+
+export const Container = styled.View`
     flex: 1;
     padding-top: 35px;
     justify-content: flex-start;
@@ -31,7 +33,8 @@ export const ViewRow = styled.View`
 export const ViewAds = styled.View`
     width: 100%;
     height: 10%;
-    background-color: #999;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const BtnSquad = styled.TouchableOpacity`
@@ -49,7 +52,7 @@ export const BtnSquad = styled.TouchableOpacity`
 export const Title = styled.Text`
     font-size: 48px;
     font-weight: 700;
-    color: #333;
+    color: #fff;
     text-align: center;
     margin-bottom: 75px;
 `;
@@ -62,15 +65,19 @@ export const TextButton = styled.Text`
 `;
 
 export const SimpleText = styled.Text`
-    font-size: 24px;
+    font-size: 34px;
+    color: #666;
+    elevation: 6;
 `;
+
 export const ViewModal = styled.View`
     width: 95%;
     height: 80%;
     flex-direction: column;
-    align-items: center;
-    background-color: #eee6;
+    align-items: flex-start;
+    padding: 10px 20px;
+    background-color: #fff;
     align-self: center;
     margin-top: 40%;
-    padding-bottom: 10px;
+    elevation: 4;
 `;
