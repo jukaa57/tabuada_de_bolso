@@ -1,6 +1,5 @@
 import React from "react";
 import {Container, ViewColumn, ViewAds, BtnRet, Title, TextButton, IconButton, Icon} from './style';
-import { Image } from "react-native";
 import { AdMobBanner } from 'expo-ads-admob';
 
 function Home({navigation}) {
